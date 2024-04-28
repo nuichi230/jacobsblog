@@ -1,0 +1,93 @@
+body {
+  background-color: #b7c3cf;
+}
+
+
+
+
+* {
+  font-family: sans-serif;
+}
+
+a {
+  color: #000000
+}
+
+.gallery__img {
+  width: 100%;
+}
+
+.section--top {
+  height: 100vh;
+  background-image: url('bck.jpg'); 
+  background-size: cover;
+  backface-visibility: 90%;
+  -webkit-mask: linear-gradient(#000000, transparent);
+/*  background: linear-gradient(180deg, rgba(249, 248, 248, 0) 1.56%, rgba(60, 100, 105, 0.44) 51.04%, rgba(255, 255, 255, 0) 100%);*/
+}
+
+.intro--text {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+.section--about {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 80px;
+
+}
+
+span {
+  font-family: vollkron;
+  font-weight: 900;
+  font-size: 20px;
+  opacity: 80%;
+}
+
+.about__text {
+  padding-bottom: 20px;
+  font-family: vollkron;
+  font-weight: medium;
+}
+
+.border {
+  border-top: 1px solid #000000;
+}
+
+.img--logo {
+  position: absolute;
+   position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+/*.img--Jacobs-Log {
+  -webkit-mask: linear-gradient(#000000, transparent);
+}
+*/
+.gallery__item {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.section--contact {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact__inner {
+  display: flex;
+}
+
+.contact__column {
+  width: 50%;
+  }
+------------------------------------------
